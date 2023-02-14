@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Futura";
+  src: url("./assets/fonts/futura/futura medium bt.ttf");
+}
+
+@font-face {
+  font-family: "Fritz-Quad";
+  src: url("./assets/fonts/fritz-quad/FritzQuadBold.ttf");
+}
+
+.video-react-button,
+.video-react-big-play-button,
+.video-react-big-play-button-left,
+.big-play-button-hide {
+  display: none;
+}
+
+.video-react-video {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+  .hidemobile {
+      visibility: hidden;
+      display: none;
+    }
+
+}
